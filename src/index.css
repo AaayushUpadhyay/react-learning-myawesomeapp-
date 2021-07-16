@@ -1,13 +1,277 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* *{ margin :0;padding: 0;box-sizing:border-box;background-color: #d2d2d2;} */
+/* css for image gallery(props video) */
+/* 
+.heading{
+  color:#fa9191 ;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #ffe9c5;
+  margin: 70px 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.img_div{
+  display:flex;
+  justify-content: center;
+}
+.img_div img{
+  width:250px;
+  height:300px;
+  margin: auto;
+} */
+/* css for image gallery(props video) */
+
+
+
+/* css for video no 34 */
+/* div{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button
+{
+  padding:15px 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+} */
+
+
+/* css for video no 36 */
+/* button{
+  padding: 12px 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+div{
+  width: 100%;
+  height: 100vh;
+  background: #8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* css for video 37 ,38,39,40,41,42*/
+/* div{
+  width: 100%;
+  height: 100vh;
+  background: #8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input
+{
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  margin: 20px 0;
+  text-align: center;
+}
+button{
+  padding: 0px 20px;
+  line-height: 24px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  cursor: pointer;
+}
+
+h1
+{
+  color: white;
+  background: transparent;
+  text-shadow: 0 2px 2px black;
+} */
+
+
+/* css for video no 44 */
+/* .center_div{
+  width: 25%;
+  height: 60vh;
+   background-color: #f9d89c; 
+  background-color: white;
+  box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background: #badc58;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  color:white;
+  background: transparent;
+  font-size: 50px;
+  background-color: #30336b;
+  padding: 6px 0 2px 0;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+button{
+  min-height: 40px;
+  border-radius: 5%;
+  border-color: transparent;
+  background-color: #30336b;
+  /* color: #fff; 
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+button:hover{
+  background-color: #22a6b3;
+}
+.btn_div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+/* css for video 52 */
+/* @import url("https://fonts.googleapis.com/css2?family=Bitter&family=Mate+SC&family=Raleway&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&family=Squada+One&display=swap");
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fcf5f5, #eff4fd);
+}
+
+.main-div {
+  width: 30vw;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bitter", serif;
+  text-transform: capitalize;
+  font-size: 32px;
+  letter-spacing: 5;
+  word-spacing: 5px;
+  margin-bottom: 50px;
+  color: #2c3148;
+}
+
+.main-heading {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  background: #f1f4ff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.main-heading:first-child {
+  margin-top: 0;
+}
+
+.main-heading h3 {
+  margin-left: 30px;
+  font-family: "Mate SC", serif;
+  color: #303243;
+  font-family: "Raleway", sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.main-heading p {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: #fff;
+  padding: 5px;
+}
+
+.answers {
+  padding: 30px 20px 40px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  word-spacing: 2px;
+  font-weight: 400;
+  line-height: 1.7;
+  background: #fcf5f5;
+  color: rgb(40, 37, 53);
+} */
+
+/* code for video no 62,64 */
+a
+{
+  text-decoration:none;
+  color:#fff;
+}
+a.active_class
+{
+  color: rgb(192, 16, 236);
+  border-bottom: 1px solid red;
+}
+
+.menu_style{
+  width: 100%;
+  line-height: 60px;
+  background-color: #20232a;
+  display: flex;
+  justify-content: space-around;
 }
