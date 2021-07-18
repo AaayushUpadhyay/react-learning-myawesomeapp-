@@ -36,9 +36,9 @@ import User from "./User";
 
 // }
 
-// const img1="https://cdn.pixabay.com/photo/2017/12/31/19/45/girls-3053051__340.jpg"
-// const img2="https://images.pexels.com/photos/745767/pexels-photo-745767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-// const img3="https://images.pexels.com/photos/245931/pexels-photo-245931.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+// const img1=""
+// const img2=""
+// const img3=""
 
 // function Images(){
 //     return <>
